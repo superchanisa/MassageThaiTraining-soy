@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/ss3">
+
+    <TextView
+        android:text="         ความรู้พื้นฐานของการนวดแผนไทย"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:layout_weight="0.03"
+        android:textSize="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="ความหมายและความสำคัญของการนวดแผนไทย
+        การนวดไทย หมายถึง การตรวจประเมิน การวินิจฉัย การบำบัด การป้องกันโรค การส่งเสริมสุขภาพและการฟื้นฟูสุขภาพ ด้วยวิธีการกด คลึง บีบ จับ ดัด ดึง หรือวิธีการอื่นตามศิลปะการนวดไทย หรือการใช้ยาตามกฎหมายว่าด้วยยา ด้วยกรรมวิธีการแพทย์แผนไทย
+        ความสำคัญของการนวดไทยแบบราชสำนัก มีองค์ประกอบ 4 ด้าน คือ
+   1. ด้านการส่งเสริมสุขภาพ การนวดช่วยปรับสมดุลธาตุทั้ง 4 ช่วยให้ระบบไหลเวียนเลือดดีขึ้น ช่วยยึดเส้นเอ็นที่ตึงให้หย่อน
+   2. ด้านการป้องกันโรค การช่วยเสริมภูมิต้านทานโรค คือ ช่วยให้ร่างกายหลั่งสารฮอร์โมนเอ็นโดฟิน ซึ่งสามารถหลั่งได้จาก 4 วิธี คือ ฝังเข็ม นวด ออกกำลังกาย และการที่จิตใจมีความสุข
+   3. ด้านการรักษา การกดนวดช่วยให้ร่างการปรับสมดุลขจัดปฏิกิริยาความเจ็บปวดลงได้
+   4. ด้านการฟื้นฟูสมรรถภาพ การนวดช่วยฟื้นฟูร่างการส่วนที่ชำรุดในโรคที่มีความพิการ หรือโรคที่มีความเรื้อรัง เช่น อัมพาต โปลิโอ สมองพิการในเด็ก เข่าเสื่อม"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_weight="0.19"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:text="next"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="clickBack"
+        android:layout_weight="0.86" />
+
+</LinearLayout>
