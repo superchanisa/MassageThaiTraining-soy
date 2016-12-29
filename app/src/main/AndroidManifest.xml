@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainHub" />
-        <activity android:name=".ShowDetail"></activity>
+        <activity android:name=".ShowDetail" />
+        <activity android:name=".Come"></activity>
     </application>
 
 </manifest>
